@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "phaedra-marketing-automation",
+  "private_key_id": "e9bd595bb132dee06f38e853971a6679ae5fc82a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDXcBQnL99AgY9c\npcxC5RnwK8GwmDSBOR9qKBQBYy+OVVAFraotPKZeBu9zVfi12ryzor32FIU280BD\n6NAwDR6YkGLiNWlBW/IK0UR1RwMw+D1JYgahokY8zHUeqtaNHvcQUGGEXf1vP+/T\n108WXn4KD/k4V7xIc7zOCylAvWxDQswWMHOgTFCcU9Om4CVT2GBEEXeCA2hZLnh7\necV71Az2JZw9H/MAQOTAWbj4tr5Uz+nZYi57Q3WuZmtLYJHJs/g2V2N+fGghxt7G\nTRnmDkClB9bjzxon2ErcY0o8jDWRFAPkz25g3QHVuGn6Y8VXxEfKN8DqFOzZXJqp\nAU4o9HVPAgMBAAECggEAU7DLc2mqbZGnEpOp5PbA+8bTyHloNCbvqDqHgv538+/6\nVSpgqJAeBPrmvERSiLq/gX0gFF9mXLFkbr0bWv9NunCkqUGccPJ59W/UC0cZ20Uj\n8cTt1I6IgIfgm5g8Hrg/vAutxlEI6dXJod7Lb2InzlrkMtoKX47ucpBtZyPu0bWD\nXZZ4GLUJwyaiyzaBP8OZEYtm0y/yizWG9wn+RYhOLkCbg3rRo6wCSz9jExCswayM\n7LIh9rrPCKIrWea5P1nmEjCOBw3P81V3+zVT6Fxv+V15tXfGn0Luf53yAppLesga\ncWRN3Upq8ZGBL8T6crndXLgw2oNF2XOmAgBSmHPTKQKBgQD6y9DoPNNGzdP1o7PF\n6x9E0U/c0CGFrOkZEksv5fnOD9tYft+gStta3xSLnglZ1ngcpVmVQqjAiqINi3m7\ncE8YLrUdqgzsC5N+ZVpHpHhrM2ftivG6hUos5/sDTp3XZ0lA709et10GnSqjNtqf\n0CJ5nsrDHV/K9h0nRSpKM58VLQKBgQDb6HIMsGABeATpGuGECcL2kuDklgBGiAfa\nJCRikbGf9WU5t5I2giNItVyQEDg/xx7piW7yFPhn8Kne1HGwyqV3dodFmjyN3Pim\nXg88lb7Q7lO2CPra5LvuhyvWgTWRtNT+5Oa+gln6zHlbPSTU+BQImwuE0PWvLbuu\nLWL9jik56wKBgQCEv1cfZfqq0o2rym+Ahjhx05zDE0N7Hw/unlk/zCnSYWBH0jgJ\n/zVmPwf/8rGeZMAE4ZyuPa9W4spuAvJ3PTYQZcCmJ/lZA7OZRopnu22lyHrtKAtV\nH/IoHM4nbPhtKJWEkmbfiozp0EzeQU2tI5zr5RoL9sNaibTasWh2CCbfLQKBgQDF\nMP+sDzBXwNaubJNSgipYTsbpUvS2Sl64JnaWCM09gaAejFTJGhMnrLFu4Yx+7D/0\n7G8XFuTU14KLtPapsF2F7TxJlo+8KiyximChVCoCUeOwtQa06Cz5LC6ML9roaD4i\nvwGGTX8AHQCpZv+zFS1pthYzJ+lXB2xnOH2unh6rtwKBgQCfDh6bQ+eF400FcaRx\nTW4xML7Y/pqfleuAUch8euuXfdJds7oS/NQNqX6FMC9uNrQ5uBcJLkUPDmyEMs4p\nHEyvYdKI6sPdjb21FiwxG3Lv4ZD1JAAO2t3oHitGuwF8wILR1cqOrp7WuD9k+yKg\njquz81F90VU7ES7AMcsdvpjCqQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "phaedra-marketing-automation@phaedra-marketing-automation.iam.gserviceaccount.com",
+  "client_id": "110859383491205347272",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/phaedra-marketing-automation%40phaedra-marketing-automation.iam.gserviceaccount.com"
+}
