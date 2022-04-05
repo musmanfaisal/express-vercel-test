@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "44342ef7-2f4a-4168-bff8-ff0700ea8ddd",
+		"name": "ps-upwork",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Sync Bid",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"bidCompany\": \"Phaedra\",\n    \"bidCoverLetter\": \"Hi Carolina, Thanks for the invite. Please share details regarding your React and Golang project as I and my team have extensive 5 years of experience working with these technologies.\\n\\nHere are some of our projects to analyze our skills.\\nBlokker (C: E-Commerce K.F: Multi-lingual, Payment, Cart, Offers)\\nhttps://www.blokker.nl/  (It …\",\n    \"bidProfile\": \"Mujtaba Ahmed\",\n    \"bidQuestionsAnswer\": [],\n    \"bidTime\": 1649070433,\n    \"bidURL\": \"https://www.upwork.com/ab/proposals/1270585746034102272\",\n    \"bidder\": \"Ayesha Nazir\",\n    \"clientCompany\": \"Troupial consultancy\",\n    \"clientHistory\": [\n        {\n            \"value\": \"21jobsposted\"\n        },\n        {\n            \"value\": \"$2,692totalspent\"\n        },\n        {\n            \"value\": \"241hoursbilled\"\n        },\n        {\n            \"value\": \"1openjob\"\n        },\n        {\n            \"value\": \"58hires\"\n        },\n        {\n            \"value\": \"Membersince:Jul10,2017\"\n        }\n    ],\n    \"clientLocationCountry\": \"United Kingdom\",\n    \"clientLocationState\": \"london\",\n    \"clientName\": \"carolina Rico\",\n    \"clientPaymentMethod\": \"Payment method verified\",\n    \"clientRating\": \"(4.48)23reviews\",\n    \"clientUpworkPlus\": false,\n    \"jobExperienceLevel\": \"Expert\",\n    \"jobHourlyRange\": \"$5.00-$15.00\",\n    \"jobHourly\": \"Hours to be determined\",\n    \"jobProjectLengthDuration\": \"1 to 3 months 1-3 months\",\n    \"jobCategories\": \"Full Stack Development\",\n    \"jobDescription\": \"LOOKING FOR SOMEONE WITH EXPERIENCE WITH REACT JS   - 2 PLUS YEARS \\nBOOTSTRAP \\nANT DESIGN \\nxd sigma \\n  more  More/Less about Experienced and talented front end developer needed\",\n    \"jobSkills\": [\n        {\n            \"value\": \"API\"\n        },\n        {\n            \"value\": \"Web Development\"\n        },\n        {\n            \"value\": \"Web Design\"\n        },\n        {\n            \"value\": \"API Integration\"\n        },\n        {\n            \"value\": \"Database Development\"\n        },\n        {\n            \"value\": \"React\"\n        },\n        {\n            \"value\": \"React Bootstrap\"\n        },\n        {\n            \"value\": \"REACT JS\"\n        },\n        {\n            \"value\": \"Adobe XD\"\n        }\n    ],\n    \"jobTitle\": \"Experienced and talented front end developer needed\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/v1/bid/sync-bid",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"bid",
+						"sync-bid"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
