@@ -1,11 +1,12 @@
 const { sendSuccess, errorHandler } = require("../../middlewares");
+const Bid = require("../../../models/bid");
 
-const syncBid = ({ bigQueryService }) => async (req, res, next) => {
+const syncBid = ({ bigQueryService, dbService }) => async (req, res, next) => {
   try {
     const { bid } = req.body;
     const { jobDetails, bidCoverLetter, bidProfile, bidURL, bidTime, bidder, client, bidQuestions } = bid;
     const { jobTitle, jobCategories, jobDescription, jobSkills, jobAttributes } = jobDetails;
-    const { company, history, location, name, paymentMethod, rating, upworkPlus} = client;
+    const { company, history, location, name, paymentMethod, rating, upworkPlus } = client;
     const bidRow = {
       bidCompany: "Phaedra",
       bidCoverLetter: bidCoverLetter,
@@ -31,8 +32,18 @@ const syncBid = ({ bigQueryService }) => async (req, res, next) => {
       jobSkills: jobSkills,
       jobTitle: jobTitle
     }
+
+    // if Bid is already synced then it will return an error
+    const bidAlreadyExist = await Bid.find({ bidURL: bidRow.bidURL, bidProfile: bidRow.bidProfile })
+    if (bidAlreadyExist.length) return res.status(409).send({ error: true, msg: "Bid already exist" });
+
+    // Saving data to MongoDB
+    await dbService.uploadDataToDB(bidRow);
+
+    // Saving data to BigQuery
     const bidQuery = bigQueryService.initiateBigQuery();
-    const responseData = await bigQueryService.uploadDataToBigQuery(bidRow, bidQuery, "phaedra_bids", "bids")
+    await bigQueryService.uploadDataToBigQuery(bidRow, bidQuery, "phaedra_bids", "bids");
+
     sendSuccess(res);
   }
   catch (error) {
