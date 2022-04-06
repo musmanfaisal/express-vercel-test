@@ -12,7 +12,8 @@ $ npm install
 ```bash
 # development
 $ npm run start
+```
 
-Configurations:
+## Configurations
 
 * MongoDB
