@@ -7,4 +7,3 @@ module.exports = (services) => {
     api.post('/sync-bid', syncBid(services));
     return api;
 };
-
