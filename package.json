@@ -5,6 +5,7 @@
   "main": "./bin/www",
   "scripts": {
     "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
     "build": "echo \"mangoes are awesome\""
   },
   "dependencies": {
@@ -18,5 +19,8 @@
     "mongoose": "^6.2.9",
     "morgan": "~1.9.1",
     "rest-api-errors": "^1.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }
