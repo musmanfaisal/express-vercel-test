@@ -30,11 +30,4 @@ app.use(function (err, req, res, next) {
   res.render("error");
 });
 
-<<<<<<< Updated upstream
-// app.get('*', function(req, res) {
-
-// });
-
-=======
->>>>>>> Stashed changes
 module.exports = app;
