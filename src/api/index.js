@@ -10,9 +10,12 @@ const routersInit = () => {
     const router = express();
     // register api points
     router.use('/bid' , bids(services));
-
+    
     // catch api all errors
     router.use(errorHandler);
+    router.get("/test", (req, res) => {
+        res.json({success: true, message: "Testing mango speaking"})
+    })
     return router;
 };
 
